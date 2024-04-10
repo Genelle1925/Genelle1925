@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=pplyzXxG-3g
+
+cd trace-odk-to-dhis2-master/
+
+ls 
+
+./compose.sh
+
+./compose.sh up
+
+watch docker ps
+
+docker volume ls
+
+docker network ls
+
+trace-odk-to-dhis2-master_default
+
+
+ifconfig wlps1o
+
+browser:
+localhost:9000 - OpenHIM
+USERNAME: root@openhim.org
+PASSWORD: trace101
+
+localhost:8080 - ODK Aggregates
+USERNAME: odk
+PASSWORD: odk
+
+localhost:8081
+USERNAME: admin
+PASSWORD: district
+
+
+
