@@ -1,4 +1,3 @@
-https://www.youtube.com/watch?v=pplyzXxG-3g
 
 cd trace-odk-to-dhis2-master/
 
@@ -15,7 +14,6 @@ docker volume ls
 docker network ls
 
 trace-odk-to-dhis2-master_default
-
 
 ifconfig wlps1o
 
